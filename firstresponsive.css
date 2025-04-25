@@ -1,0 +1,111 @@
+﻿/* hereder responsive */
+
+
+@media screen and (max-width: 900px) {
+    
+    header{
+        height: 70px;
+    }
+    
+    .hedernavigation {
+        display: none;
+
+    }
+
+    .hederburger {
+        display: flex;
+        gap: 7px;
+        z-index: 100;
+    }
+
+    .hedericonesmedia {
+        display: none;
+
+    }
+
+    .hederburger {
+        display: flex;
+    }
+
+
+    .searching {
+        margin-left: 20px;
+    }
+
+    .headericones {
+        padding-right: 20px;
+    }
+    
+}
+
+
+
+/* აქ დასრულდა ჰედერის რესპონსივი */
+
+
+
+/* აქ იწყება main menu რესპონსივი */
+@media screen and (max-width:852px) {
+    .secondmenuchild1 {
+        display: flex;
+        justify-content: center;
+        width: 400px;
+        margin: 5px 5px;
+    }
+    .secondmenuchild2{
+        display: flex;
+        flex-direction: column;
+        height: 500px;
+        width: 200px;
+        margin-left: 80px;
+        
+       
+
+    }
+.mediaboxes{
+    width: 450px;
+    height: 450px;
+    /* padding: 5px 5px; */
+    display: flex;
+    justify-content: center;
+}
+.mediaboxes img{
+    background-size: cover;
+
+}
+.secondmenuchild3{
+    flex-wrap: wrap;
+    height: 185px;
+    display: flex;
+    gap: 7px;
+    
+}
+.world{
+    font-size: 11px;
+    
+}
+}
+@media screen and (max-width:540px) {
+    .secondmenuchild2boxes{
+        width: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+    .socialiones{
+        display: flex;
+        flex-wrap: wrap;
+        height: 150px;
+        gap: 20px;
+    }
+    .secondmenuchild3{
+        width: 400px;
+    }
+    
+    }
+    .secondmenu{
+        display: flex;
+        justify-content: center;
+    }

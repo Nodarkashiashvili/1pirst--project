@@ -1,0 +1,566 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   list-style: none;
+   text-decoration: none;
+
+}
+
+header {
+   width: 100%;
+   height: 80px;
+   background-color: rgb(226, 226, 226);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: fixed;
+   top: 0;
+   left: 0;
+   z-index: 100;
+
+
+}
+
+.hedersearch {
+   width: 259px;
+   height: 50px;
+   /* background-color: aquamarine; */
+   /* border: 3px solid black; */
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   gap: 7px;
+   position: relative;
+
+
+}
+
+.serchivones {
+   position: absolute;
+   right: 100px;
+
+}
+
+.nav0001 ul {
+   display: flex;
+   flex-direction: column;
+   gap: 30px;
+}
+
+.nav0001 a {
+   text-decoration: none;
+   color: aliceblue;
+}
+
+
+
+.searchicones1 {
+   width: 50px;
+   height: 50px;
+   background-color: blueviolet;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+
+
+}
+
+
+
+
+.searching {
+   width: 130px;
+   background-color: gray;
+   border: none;
+   color: black;
+   background-color: rgba(240, 248, 255, 0);
+   margin-left: 15px;
+
+
+
+
+}
+
+.searchline {
+   width: 170px;
+   height: 2px;
+   background-color: black;
+
+}
+
+.hedernavigation {
+   /* width: 300px; */
+   height: 50px;
+   /* background-color: rgb(0, 255, 106); */
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+
+
+}
+
+.hedernavigation>ul {
+   display: flex;
+   gap: 13px;
+   position: relative;
+   top: 10px;
+   right: 20px;
+
+
+
+
+
+
+}
+
+.hedernavigation>ul>li>a {
+   color: black;
+   text-decoration: none;
+
+}
+
+.headericones {
+   width: 250px;
+   height: 50px;
+   /* background-color: green; */
+}
+
+.headericones {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 20px;
+}
+
+.heredericonessocial {
+   /* width: 50px; */
+   height: 20px;
+   /* background-color: blue; */
+}
+
+
+.hedericonesa {
+   color: black;
+}
+
+.hederburger {
+   width: 50px;
+   height: 50px;
+   /* background-color: aqua; */
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap: 5px;
+   display: none;
+
+}
+
+.burgerline {
+   width: 40px;
+   height: 2px;
+   background-color: black;
+}
+
+/* აქ დასრულდა ჰედერი */
+
+
+/* აქ იწყება chat */
+.chatlets {
+   width: 45px;
+   height: 45px;
+   background-color: blue;
+   position: fixed;
+   bottom: 0;
+   right: 0;
+   display: flex;
+   color: aliceblue;
+   justify-content: center;
+   align-items: center;
+   cursor: pointer;
+   margin: 10px 10px;
+   border-radius: 5px;
+   z-index: 99;
+
+}
+
+
+/* აქ იწყება main menu */
+
+
+.mainmenu {
+   width: 100%;
+
+}
+
+.pirstmenu {
+   width: 100%;
+   /* height: 50vh; */
+   /* background-color: aqua; */
+   background-image: url(https://static.wixstatic.com/media/5bfb6f_26f1a5c736e544e09c63c82a4c792645~mv2_d_3839_1306_s_2.jpg/v1/fill/w_810,h_317,al_b,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/5bfb6f_26f1a5c736e544e09c63c82a4c792645~mv2_d_3839_1306_s_2.jpg);
+   background-size: cover;
+   background-position: center;
+   display: flex;
+   justify-content: center;
+
+
+
+}
+
+.firstmenuchild {
+   width: 500px;
+   height: 300px;
+   /* background-color: blueviolet; */
+   margin: 70px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 7px;
+   color: aliceblue;
+
+}
+
+.secondmenu {
+   width: 100%;
+   /* height: 50vh; */
+   /* background-color: blueviolet; */
+   display: flex;
+   gap: 30px;
+   flex-direction: column;
+
+
+
+}
+
+.secondmenuchild1 {
+   width: 100%;
+   height: 70px;
+   /* background-color: aqua; */
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+   gap: 4px;
+   margin-top: 10px;
+
+
+}
+
+.secondmenuchild1>p {
+   margin-bottom: 0rem;
+   font-size: small;
+
+
+}
+
+.secondmenuchild2 {
+   width: 100%;
+   /* height: 150px; */
+   /* background-color: brown; */
+   display: flex;
+   gap: 40px;
+   justify-content: center;
+   align-items: center;
+
+}
+
+.secondmenuchild3 {
+   width: 100%;
+   height: 90px;
+   background-color: rgba(204, 204, 204, 0.726);
+   display: flex;
+   justify-content: center;
+   gap: 70px;
+   align-items: center;
+}
+
+
+
+.featured {
+   width: 100px;
+   height: 90px;
+   /* background-color: aqua; */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 20px;
+   font-size: small;
+
+}
+
+.spaceline {
+   width: 3px;
+   height: 30px;
+   background-color: black;
+   border-radius: 50px;
+}
+
+.planetour {
+   width: 100px;
+   height: 90px;
+   display: flex;
+   /* background-color: aqua; */
+
+}
+
+
+.blog {
+   width: 100px;
+   height: 90px;
+   /* background-color: aqua; */
+
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
+}
+
+.pargrafetravel {
+   font-family: "Winky Sans", sans-serif;
+   font-size: 25px;
+   margin-bottom: 20px;
+   height: 5px;
+
+
+}
+
+.paragrap1 {
+   width: 900px;
+}
+
+.paragrapheblog {
+   margin-left: 25px;
+
+}
+
+.planetour {
+   width: 100px;
+   height: 90px;
+   /* background-color: aqua; */
+   justify-content: center;
+   display: flex;
+   align-items: center;
+   font-size: 13px;
+}
+
+.world {
+   width: 100px;
+   height: 70px;
+   /* background-color: aqua; */
+   font-family: "Winky Sans", sans-serif;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 11px;
+   margin-top: 12px;
+
+
+
+
+}
+
+.skycloud {
+   width: 100px;
+   height: 90px;
+   /* background-color: aqua; */
+   font-family: "Winky Sans", sans-serif;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+
+
+.secondmenuchild2boxes {
+   width: 250px;
+   height: 250px;
+   background-color: rgb(23, 20, 220);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-image: url();
+
+
+
+}
+
+.boximg1 {
+   background-image: url(https://static.wixstatic.com/media/5bfb6f_9f2519d5fc2d41f990a10dd92eb8658d.jpg/v1/fill/w_209,h_173,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/5bfb6f_9f2519d5fc2d41f990a10dd92eb8658d.jpg);
+   background-size: cover;
+
+}
+
+.boximg2 {
+   background-image: url(https://static.wixstatic.com/media/5bfb6f_ea37f67cad544b348df9f3d0ff40f282.jpg/v1/fill/w_209,h_173,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/5bfb6f_ea37f67cad544b348df9f3d0ff40f282.jpg);
+   background-size: cover;
+}
+
+.boximg3 {
+   background-image: url(https://static.wixstatic.com/media/5bfb6f_c667d0c9bd634b1aa2b29311795f3c51.jpg/v1/fill/w_210,h_173,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/5bfb6f_c667d0c9bd634b1aa2b29311795f3c51.jpg);
+   background-size: cover;
+}
+
+.secondmenuchild2boxes>button {
+   width: 120px;
+   height: 43px;
+   justify-content: center;
+   align-items: center;
+   color: blue;
+
+}
+
+.buttonhover003 :hover {
+   background-color: blue;
+   color: aliceblue;
+   transition: 1s;
+}
+
+/* აქ დასრულდა main menu */
+
+
+/* /////// აქ იწყება section */
+
+.maincsection {
+   width: 100%;
+   /* height: 70vh; */
+   background-color: white;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   position: relative;
+   right: 200px;
+
+}
+
+.secionchild {
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+   padding: 20px;
+   gap: 30px;
+
+}
+
+
+
+.sectionscards1 img {
+
+   width: 900px;
+
+
+}
+
+.badyy {
+   width: 900px;
+}
+
+
+.sectionscards2 img {
+   width: 900px;
+}
+
+.sectionscards3 img {
+   width: 900px;
+}
+
+
+/* ////////////////////აქ იწყება სოციალ აიქოონები */
+.socialiones {
+   width: 100%;
+   height: 80px;
+   background-color: blue;
+   display: flex;
+   gap: 120px;
+   justify-content: center;
+   align-items: center;
+
+}
+
+.socones {
+   width: 150px;
+   height: 50px;
+   /* background-color: brown; */
+   color: white;
+   display: flex;
+   gap: 5px;
+
+
+
+
+
+}
+
+.socones a {
+   color: white;
+   text-decoration: none;
+}
+
+
+
+
+
+
+
+/* aq aris burger navigacia */
+#check:checked~.nav001 {
+   display: flex;
+   width: 100%;
+   height: 100vh;
+   position: fixed;
+   top: 0;
+   left: 0;
+   justify-content: center;
+   background-color: skyblue;
+   color: white;
+   text-decoration: none;
+   align-items: center;
+
+
+
+
+}
+
+#check {
+   display: none;
+}
+
+#check:checked+.labelburger>.hederburger .line2 {
+   display: none;
+}
+
+#check:checked+.labelburger>.hederburger .line1 {
+   transform: rotate(47deg) translate(6px);
+   transition: 0.5s;
+}
+
+#check:checked+.labelburger>.hederburger .line3 {
+   transform: rotate(-47deg) translate(6px);
+   transition: 0.5s;
+}
+
+
+#check {
+   display: none;
+}
+
+.nav001 {
+   display: none;
+}
+
+.labelburger {
+   position: relative;
+   z-index: 99;
+
+}
+
+footer {
+   width: 100%;
+   height: 70vh;
+   background-color: bisque;
+}
