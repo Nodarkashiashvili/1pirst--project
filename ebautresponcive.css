@@ -1,0 +1,36 @@
+@media screen and (max-width: 900px) {
+    
+    header{
+        height: 70px;
+    }
+    
+    .hedernavigation {
+        display: none;
+
+    }
+
+    .hederburger {
+        display: flex;
+        gap: 7px;
+        z-index: 100;
+    }
+
+    .hedericonesmedia {
+        display: none;
+
+    }
+
+    .hederburger {
+        display: flex;
+    }
+
+
+    .searching {
+        margin-left: 20px;
+    }
+
+    .headericones {
+        padding-right: 20px;
+    }
+    
+}
