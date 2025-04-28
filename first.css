@@ -595,7 +595,7 @@ footer {
    display: flex;
    justify-content: center;
    /* align-items: center; */
-   gap: 20px;
+   gap: 50px;
 
 
 
@@ -612,7 +612,7 @@ footer {
 }
 .divimages img{
    width: 150px;
-   height: 150px;
+   /* height: 150px; */
    margin-left: 30px;
 }
 .textabout h3{
@@ -651,3 +651,26 @@ footer {
 .fitsbutton5:hover{
    background-color:rgba(255, 255, 255, 0.699)
 }
+.redmore{
+   color: aliceblue;
+}
+.goiogleapis{
+   margin-top: 100px;
+   margin-right: 50px;
+   
+   
+
+
+}
+
+.foricones{
+   margin-top: 100px;
+   width: 150px;
+   height: 50px;
+   /* background-color: aqua; */
+   display: flex;
+   gap: 20px;
+   
+   
+}
+
