@@ -104,7 +104,7 @@
         width: 400px;
     }
     
-    }
+    
     .secondmenu{
         display: flex;
         justify-content: center;
@@ -112,4 +112,7 @@
     .footerdiv2{
         width: 100%;
     }
-    
+    .footerdiv2{
+        flex-direction: column;
+    }
+}
