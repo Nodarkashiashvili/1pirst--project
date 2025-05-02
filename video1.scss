@@ -31,3 +31,25 @@ gap: 50px;
     width: 100%;
     height: auto;
 }
+.searchandselect{
+    width: 800px;
+    height: 70px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.secectdivbox{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(255, 0, 64);
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+
+}
+.selectline{
+    width: 100%;
+    height: 2px;
+    background-color: black;
+}
