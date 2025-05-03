@@ -23,13 +23,13 @@ main {
 }
 
 main .treeeat1 {
-  width: 800px;
+  width: 80%;
   height: 500px;
   background-color: brown;
 }
 
 .eatparagraph {
-  width: 800px;
+  width: 80%;
   height: 250px;
   background-color: aqua;
   display: -webkit-box;
