@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+main {
+    width: 100%;
+    // height: 80vh;
+    background-color: chartreuse;
+    margin-top: 70px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+
+}
+
+.paragraph001 {
+    width: 800px;
+    height: 250px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+}
+.treediv3{
+    width: 800px;
+    height: 600px;
+    background-color: blueviolet;
+}
