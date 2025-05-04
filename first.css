@@ -572,25 +572,27 @@ footer {
    /* background-color: bisque; */
 }
 
-.carouselboxes{
+.carouselboxes {
    /* width: 200px; */
    height: 200px;
    display: flex;
 }
-.carouselboxes img{
+
+.carouselboxes img {
    width: 200px;
 }
 
-.footerdiv2{
+.footerdiv2 {
    width: 100%;
    /* height: 70vh; */
    background-color: gray;
    display: flex;
    gap: 40px;
-   
+
 
 }
-.reftdiv{
+
+.reftdiv {
    padding-top: 30px;
    width: 50%;
    /* height: 70vh; */
@@ -603,80 +605,94 @@ footer {
 
 
 }
-.rightdiv{
+
+.rightdiv {
    width: 50%;
    /* height: 70vh; */
    /* background-color: blue; */
    display: flex;
    /* justify-content: center; */
    padding-top: 30px;
-   gap:20px;
+   gap: 20px;
    flex-direction: column;
 }
-.divimages img{
+
+.divimages img {
    width: 150px;
    /* height: 150px; */
    margin-left: 30px;
 }
-.textabout h3{
+
+.textabout h3 {
    color: aliceblue;
 }
-.textabout p{
+
+.textabout p {
    color: aliceblue;
 
 }
-.divconyeinerright h3{
+
+.divconyeinerright h3 {
    color: aliceblue;
 }
-.input09{
+
+.input09 {
    background-color: gray;
    box-sizing: 50px;
- 
+
 
 }
-.label4{
+
+.label4 {
    color: aliceblue;
 }
-.input09::placeholder{
+
+.input09::placeholder {
    color: aliceblue;
    font-size: 15px;
 }
-.divchekbox > p{
+
+.divchekbox>p {
    color: aliceblue;
 }
-.fitsbutton5{
+
+.fitsbutton5 {
    width: 190px;
    height: 30px;
    background-color: blue;
    color: aliceblue;
-   
+
 }
-.fitsbutton5:hover{
-   background-color:rgba(255, 255, 255, 0.699)
+
+.fitsbutton5:hover {
+   background-color: rgba(255, 255, 255, 0.699)
 }
-.redmore{
+
+.redmore {
    color: aliceblue;
 }
-.goiogleapis{
+
+.goiogleapis {
    margin-top: 200px;
    margin-right: 50px;
-   
-   
+
+
 
 
 }
 
-.foricones{
+.foricones {
    margin-top: 150px;
    width: 150px;
    height: 50px;
    /* background-color: aqua; */
    display: flex;
    gap: 20px;
-   
-   
+
+
 }
-section{
+
+section {
    width: 100%;
    /* height: 70vh; */
    /* background-color: aqua; */
@@ -687,9 +703,10 @@ section{
    gap: 50px;
    padding-top: 50px;
    padding-bottom: 30px;
-   
+
 }
-.treediv{
+
+.treediv {
    width: 80%;
    height: 800px;
    /* background-color: blue; */
@@ -697,10 +714,11 @@ section{
    display: flex;
    flex-direction: column;
    justify-content: center;
-   
-   
+
+
 }
-.photodiv1{
+
+.photodiv1 {
    width: 100%;
    height: 1000px;
    /* background-color: blanchedalmond; */
@@ -708,14 +726,16 @@ section{
    background-size: cover;
    background-position: center;
 }
-.whitediv1{
+
+.whitediv1 {
    width: 100%;
    height: 600px;
    background-color: rgb(0, 255, 85);
    /* display: flex; */
-   
+
 }
-.iconestwihe{
+
+.iconestwihe {
    display: flex;
    gap: 10px;
    align-items: center;
@@ -723,23 +743,27 @@ section{
    padding: 10px;
 
 }
-.texts{
+
+.texts {
    display: flex;
    flex-direction: column;
    /* justify-content: center; */
    background-color: blueviolet;
    justify-content: end;
 }
-.texts p{
+
+.texts p {
    line-height: 5px;
 
 
 }
-.iconestwihe i{
+
+.iconestwihe i {
    font-size: 40px;
 
 }
-.photodiv2{
+
+.photodiv2 {
    width: 100%;
    background-image: url(https://static.wixstatic.com/media/f969ea5e4ea64a66af55f3cb06895101.jpg/v1/fill/w_1110,h_740,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/f969ea5e4ea64a66af55f3cb06895101.jpg);
    height: 1000px;
@@ -747,22 +771,54 @@ section{
    background-position: center;
 
 }
-.whitediv2{
+
+.whitediv2 {
    width: 100%;
    height: 400px;
    background-color: rgb(255, 0, 242);
 }
-.photodiv3{
+
+.photodiv3 {
    width: 100%;
    height: 1000px;
    background-image: url(https://static.wixstatic.com/media/ae5901bd4fda41009c4cc4a19bb70d05.jpg/v1/fill/w_1110,h_740,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/ae5901bd4fda41009c4cc4a19bb70d05.jpg);
    background-size: cover;
    background-position: center;
 }
-.whitediv3{
+
+.whitediv3 {
    width: 100%;
    height: 400px;
-   background-color: blue;}
+   background-color: blue;
+   display: flex;
+   flex-direction: column;
+   /* align-items: center; */
+   gap: 20px;
+}
 
 
 
+.lineipanemaline {
+   width: 95%;
+   height: 2px;
+   background-color: black;
+}
+
+.iconesipanema {
+   width: 95%;
+   height: 30px;
+   background-color: blueviolet;
+   display: flex;
+   justify-content: space-between;
+}
+
+.ipannemamother{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.thegirl{
+   display: flex;
+   justify-content: center;
+   
+}
