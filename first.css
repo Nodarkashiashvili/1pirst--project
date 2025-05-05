@@ -828,3 +828,7 @@ section {
    justify-content: center;
    
 }
+.thegirl a{
+   /* list-style: none; */
+   text-decoration: none;
+}
