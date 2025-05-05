@@ -43,8 +43,12 @@
         flex-direction: column;
         align-items: center;
     }
+    .carouselvideo{
+        flex-direction: column;
+        align-items: center;
+    }
     
-    
+}
     
 
 
