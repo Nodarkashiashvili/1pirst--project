@@ -5,14 +5,14 @@
           box-sizing: border-box;
 }
 
-main {
+.about111 {
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-main .eboutmediv {
+.about111 .eboutmediv {
   width: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -29,18 +29,17 @@ main .eboutmediv {
           justify-content: center;
 }
 
-main .eboutmediv h1 {
+.about111 .eboutmediv h1 {
   margin-top: 100px;
   margin-right: 230px;
 }
 
-main .eboutmediv p {
+.about111 .eboutmediv p {
   width: 400px;
 }
 
 .girldpicturediv {
   width: 50%;
-  height: 70vh;
 }
 
 .girldpicturediv img {

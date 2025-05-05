@@ -19,6 +19,7 @@ main {
       -ms-flex-align: center;
           align-items: center;
   gap: 5px;
+  padding-bottom: 15px;
 }
 
 main .treeeat1 {
