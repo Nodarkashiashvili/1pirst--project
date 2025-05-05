@@ -831,4 +831,9 @@ section {
 .thegirl a{
    /* list-style: none; */
    text-decoration: none;
+   color: black;
+   
+}
+.thegirl a :hover{
+   color: blue;
 }
