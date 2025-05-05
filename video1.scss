@@ -6,7 +6,7 @@
 .mainmain{
     width: 100%;
     // height: 80vh;
-    background-color: aqua;
+    // background-color: aqua;
     margin-top: 70px;
     display: flex;
     flex-direction: column;
@@ -17,7 +17,7 @@
 .paragraph{
 width: 80%;
 height: 300px;
-background-color: brown;
+// background-color: brown;
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -35,7 +35,7 @@ gap: 50px;
 .searchandselect{
     width: 80%;
     // height: 70px;
-    background-color: blueviolet;
+    // background-color: blueviolet;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -43,7 +43,7 @@ gap: 50px;
 .secectdivbox{
     width: 200px;
     height: 50px;
-    background-color: rgb(255, 0, 64);
+    // background-color: rgb(255, 0, 64);
     display: flex;
     flex-direction: column;
     gap: 9px;
@@ -61,9 +61,28 @@ gap: 50px;
 }
 .carouselvideo{
     width: 80%;
-    height: 300px;
-    background-color: burlywood;
+    // height: 250px;
+    // background-color: white;
+    display: flex;
+    gap: 4px;
+    .treevideo{
+        width: 40%;
+        height: 200px;
+        // background-color: blue;
+        video{
+            width: 100%;
+            height: 100%;
+        }
+    }
+
 }
 .selectdiv select{
     width: 100%;
+}
+.nextbutn{
+    width: 80%;
+    height: 40px;
+    // background-color: beige;
+    display: flex;
+    justify-content: end;
 }

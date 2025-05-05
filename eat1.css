@@ -7,7 +7,6 @@
 
 main {
   width: 100%px;
-  background-color: blueviolet;
   margin-top: 70px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -24,13 +23,12 @@ main {
 
 main .treeeat1 {
   width: 80%;
-  background-color: brown;
+  border: 1px solid black;
 }
 
 .eatparagraph {
   width: 80%;
   height: 250px;
-  background-color: aqua;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -57,14 +55,12 @@ main .treeeat1 {
 .box001 .photodiveat1 {
   width: 100%;
   height: 900px;
-  background-color: #31790f;
   background-image: url(https://static.wixstatic.com/media/240bc5b15f4e4f4582996cf6b0d6ab8f.jpg/v1/fill/w_1368,h_949,al_c,q_90/240bc5b15f4e4f4582996cf6b0d6ab8f.webp);
   background-size: cover;
 }
 
 .box001 .whitediveat1 {
   width: 100%;
-  background-color: #462be2;
 }
 
 .box002 {
@@ -80,14 +76,12 @@ main .treeeat1 {
 .box002 .photodiveat2 {
   width: 100%;
   height: 900px;
-  background-color: #31790f;
   background-image: url(https://static.wixstatic.com/media/e74ada189a6b4b21badde4860665a1ef.jpg/v1/fill/w_1368,h_912,al_c,q_90/e74ada189a6b4b21badde4860665a1ef.webp);
   background-size: cover;
 }
 
 .box002 .whitediveat2 {
   width: 100%;
-  background-color: #e2992b;
 }
 
 .box003 {
@@ -103,13 +97,11 @@ main .treeeat1 {
 .box003 .photodiveat3 {
   width: 100%;
   height: 900px;
-  background-color: #31790f;
   background-image: url(https://static.wixstatic.com/media/b819819803e24f53891d300c471ed80b.jpg/v1/fill/w_1110,h_740,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/b819819803e24f53891d300c471ed80b.jpg);
   background-size: cover;
 }
 
 .box003 .whitediveat3 {
   width: 100%;
-  background-color: #2be249;
 }
 /*# sourceMappingURL=eat1.css.map */

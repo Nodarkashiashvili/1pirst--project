@@ -8,7 +8,7 @@
 main {
     width: 100%;
     // height: 80vh;
-    background-color: chartreuse;
+    // background-color: chartreuse;
     margin-top: 70px;
     justify-content: center;
     display: flex;
@@ -21,7 +21,7 @@ main {
 .paragraph001 {
     width: 80%;
     height: 250px;
-    background-color: aqua;
+    // background-color: aqua;
     display: flex;
     flex-direction: column;
     gap: 50px;
@@ -30,8 +30,9 @@ main {
 .treediv3{
     width: 80%;
     // height: 600px;
-    background-color: blueviolet;
+    // background-color: blueviolet;
     display: flex;
+    border: 1px solid black;
     
 
    
@@ -53,7 +54,7 @@ main {
     .writediv001{
         width: 100%;
         // height: 200px;
-        background-color: aqua;
+        // background-color: aqua;
 
     }
 }
@@ -69,14 +70,14 @@ main {
         width: 100%;
         height: 1000px;
         background-image: url(https://static.wixstatic.com/media/f969ea5e4ea64a66af55f3cb06895101.jpg/v1/fill/w_1110,h_740,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/f969ea5e4ea64a66af55f3cb06895101.jpg);
-        background-color: brown;
+        // background-color: brown;
         background-size: cover;
         
     }
     .writediv002{
         width: 100%;
         // height: 200px;
-        background-color: rgb(119, 0, 255);
+        // background-color: rgb(119, 0, 255);
 
     }
 }
@@ -88,14 +89,14 @@ main {
     .photodivv3{
         width: 100%;
         height: 1000px;
-        background-color: brown;
+        // background-color: brown;
         background-size: cover;
         background-image: url(https://static.wixstatic.com/media/e3190f8f39f5445c8e5d4153ab1414aa.jpg/v1/fill/w_1110,h_740,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/e3190f8f39f5445c8e5d4153ab1414aa.jpg);
     }
     .writediv003{
         width: 100%;
         // height: 200px;
-        background-color: yellow;
+        // background-color: yellow;
 
     }
 }
